@@ -10,10 +10,14 @@ body {
 
 div.grid {
     display: grid;
-    grid-template-areas:
-        "a a a"
-        "d d d";
+    grid-template-columns: 1fr 1fr 1fr;
     margin-bottom: 100px;
+}
+
+@media screen and (max-width: 600px) {
+    div.grid {
+        grid-template-columns: 1fr;
+    }
 }
 
 div.grid > div {
