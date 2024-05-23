@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+h1 {
+    text-align: center;
+}
+
+body {
+    background-color: bisque;
+}
+
+div.grid {
+    display: grid;
+    grid-template-areas:
+        "a a a"
+        "d d d";
+    margin-bottom: 100px;
+}
+
+div.grid > div {
+    background-color: blanchedalmond;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: -5px 5px 5px 2px silver;
+    border-radius: 0 15px 0 0;
+}
+
+ul {
+    list-style: square;
+}
+
+a {
+    text-decoration: none;
+}
