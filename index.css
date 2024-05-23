@@ -14,7 +14,7 @@ div.grid {
     margin-bottom: 100px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
     div.grid {
         grid-template-columns: 1fr;
     }
