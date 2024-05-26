@@ -38,7 +38,7 @@ div.grid > div:nth-child(even) {
 }
 
 ul {
-    list-style: square;
+    list-style-type: square;
 }
 
 a {
